@@ -10,7 +10,7 @@ export default class Timer extends Component {
  	const {timeLeft} = this.props
  return(
  	<div>
- 	<h1>{this.props.timeLeft} second(s) left</h1>
+ 	<h1>{timeLeft} second(s) left</h1>
  	<ProgressBar now={parseInt(timeLeft)} label={`${timeLeft}`} max={20}/>
  	</div>
  ); 

@@ -23,6 +23,9 @@ export default class NavBar extends React.Component{
 		        <LinkContainer to="/timer">
 		        <NavItem eventKey={3} >Timer</NavItem>
 		        </LinkContainer>
+		        <LinkContainer to="/bookstore">
+		        <NavItem eventKey={4} >Book Store</NavItem>
+		        </LinkContainer>
 		      </Nav>
 		    </Navbar.Collapse>
   		</Navbar>
