@@ -27,6 +27,6 @@ export default class Modall extends Component {
           </Modal.Footer>
         </Modal>
 			 </div>
-		 );
-	 }
+		);
+	}
 }
